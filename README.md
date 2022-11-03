@@ -6,11 +6,11 @@
 
 # 1.desktop view
 
-<img src="./completed-imgs/Screenshot 2022-11-03 235954.png" width="50" />
+<img src="./completed-imgs/Screenshot 2022-11-03 235954.png"  />
 
 # 2.mobile view
 
 <div float="left">
-  <img src="./completed-imgs/FE-C1-mobileView.png" width="40"/>
-<img src="./completed-imgs/PE-C1-mobileMenu.png"width="40"/>
+  <img src="./completed-imgs/FE-C1-mobileView.png" />
+<img src="./completed-imgs/PE-C1-mobileMenu.png"/>
 </div>
