@@ -11,6 +11,6 @@
 # 2.mobile view
 
 <div float="left">
-  <img src="./completed-imgs/FE-C1-mobileView.png" />
-<img src="./completed-imgs/PE-C1-mobileMenu.png"/>
+  <img src="./completed-imgs/FE-C1-mobileView.png" width="70"/>
+<img src="./completed-imgs/PE-C1-mobileMenu.png" width="70"/>
 </div>
