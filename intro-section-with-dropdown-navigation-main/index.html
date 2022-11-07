@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header starts-->
+    <header>
+      <div style="display: flex">
+        <img class="logo" src="/images/logo.svg" alt="" />
+        <div class="drop-buttons">
+          <ul>
+            <li>
+              <button id="feature" class="drop-down-button">
+                Features
+                <img
+                  id="featureButtonDown"
+                  class=""
+                  src="/images/icon-arrow-down.svg"
+                  alt=""
+                />
+                <img
+                  id="featureButtonUp"
+                  class="hidden"
+                  src="/images/icon-arrow-up.svg"
+                  alt=""
+                />
+                <div class="box1 hidden">
+                  <ul>
+                    <li><img src="/images/icon-todo.svg" alt="" />Todo</li>
+                    <li>
+                      <img src="/images/icon-calendar.svg" alt="" />Calender
+                    </li>
+                    <li>
+                      <img src="/images/icon-reminders.svg" alt="" />Reminders
+                    </li>
+                    <li>
+                      <img src="/images/icon-planning.svg" alt="" />Planning
+                    </li>
+                  </ul>
+                </div>
+              </button>
+            </li>
+            <li>
+              <button id="company" class="drop-down-button">
+                Company
+                <img
+                  id="companyButtonDown"
+                  class=""
+                  src="/images/icon-arrow-down.svg"
+                  alt=""
+                />
+                <img
+                  id="companyButtonUp"
+                  class="hidden"
+                  src="/images/icon-arrow-up.svg"
+                  alt=""
+                />
+                <div class="box2 hidden">
+                  <ul>
+                    <li>History</li>
+                    <li>Our team</li>
+                    <li>Blog</li>
+                  </ul>
+                </div>
+              </button>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="login-div">
+        <button class="login">Login</button>
+        <button class="register">Register</button>
+      </div>
+    </header>
+    <div class="mobile-header">
+      <img class="logo" src="/images/logo.svg" alt="" />
+      <img class="menu" src="/images/icon-menu.svg" alt="" />
+    </div>
+
+    <!--mobile menu-->
+
+    <div class="mobile-menu-box hidden">
+      <img class="icon-close" src="/images/icon-close-menu.svg" alt="" />
+      <ul>
+        <li>
+          <button id="featureMobile" class="drop-down-button">
+            Features
+            <img
+              id="featureButtonDownMobile"
+              class=""
+              src="/images/icon-arrow-down.svg"
+              alt=""
+            />
+            <img
+              id="featureButtonUpMobile"
+              class="hidden"
+              src="/images/icon-arrow-up.svg"
+              alt=""
+            />
+            <div class="box3 hidden">
+              <ul>
+                <li><img src="/images/icon-todo.svg" alt="" />Todo</li>
+                <li><img src="/images/icon-calendar.svg" alt="" />Calender</li>
+                <li>
+                  <img src="/images/icon-reminders.svg" alt="" />Reminders
+                </li>
+                <li><img src="/images/icon-planning.svg" alt="" />Planning</li>
+              </ul>
+            </div>
+          </button>
+        </li>
+        <li>
+          <button id="companyMobile" class="drop-down-button">
+            Company
+            <img
+              id="companyButtonDownMobile"
+              class=""
+              src="/images/icon-arrow-down.svg"
+              alt=""
+            />
+            <img
+              id="companyButtonUpMobile"
+              class="hidden"
+              src="/images/icon-arrow-up.svg"
+              alt=""
+            />
+            <div class="box4 hidden">
+              <ul>
+                <li>History</li>
+                <li>Our team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <!--header section ended-->
+
+    <!--hero section-->
+    <div class="hero-wrap">
+      <div class="hero">
+        <h1 class="hero-h1">
+          Make<br />
+          remote work
+        </h1>
+        <h1 class="mobile-hero-h1">Make remote work</h1>
+        <p>
+          Make remote work Get your team in sync, no matter your location.
+          Streamline processes, create team rituals, and watch productivity
+          soar. Learn more
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="img-container">
+          <img src="/images/client-databiz.svg" alt="" />
+          <img src="/images/client-audiophile.svg" alt="" />
+          <img src="/images/client-maker.svg" alt="" />
+          <img src="/images/client-meet.svg" alt="" />
+        </div>
+      </div>
+      <div class="img-div">
+        <img class="desktop-img" src="/images/image-hero-desktop.png" alt="" />
+        <img class="mobile-img" src="/images/image-hero-mobile.png" alt="" />
+      </div>
+    </div>
+    <!--her0 section ended-->
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+}
+header {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.logo {
+  width: 85%;
+  object-fit: contain;
+}
+.drop-down-button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-left: 35px;
+}
+.drop-down-button > img {
+  padding-left: 5px;
+}
+button {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.drop-buttons {
+}
+.login {
+  padding: 10px 20px;
+  border: none;
+  background-color: hsl(0, 0%, 98%);
+
+  cursor: pointer;
+}
+.register {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.register:hover {
+  padding: 9px 19px;
+  border: 2px solid black;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul {
+  display: flex;
+  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.drop-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  position: absolute;
+  background-color: whitesmoke;
+  top: 20px;
+}
+.box1 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.box1 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(0, 0%, 98%);
+  padding: 11px 20px;
+}
+
+.box2 {
+  position: absolute;
+  top: 20px;
+}
+.box2 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.box2 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(0, 0%, 98%);
+  padding: 11px 20px;
+}
+.box3 {
+  position: absolute;
+  top: 20px;
+}
+.box3 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.box3 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 11px 20px;
+}
+.box4 {
+  position: absolute;
+  top: 20px;
+}
+.box4 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.box4 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 11px 20px;
+}
+.hidden {
+  display: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero-wrap {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.img-div > img {
+  width: 100%;
+  margin-left: 60px;
+}
+.logo {
+  width: 80px;
+  object-fit: contain;
+}
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.menu {
+  cursor: pointer;
+}
+.mobile-img {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.desktop-img {
+  display: block;
+}
+.mobile-hero-h1 {
+  display: none;
+  color: hsl(0, 0%, 8%);
+  font-size: 2.7rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 700px) {
+  header {
+    display: none;
+  }
+  .hero-wrap {
+    flex-direction: column-reverse;
+  }
+  .mobile-img {
+    display: block;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .hero-h1 {
+    display: none;
+  }
+  .mobile-hero-h1 {
+    display: block;
+  }
+  .img-container > img {
+    width: 40%;
+    padding-left: 50px;
+    object-fit: contain;
+  }
+  .learn-more {
+    margin: auto;
+  }
+}
+.mobile-menu-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 10;
+  background-color: hsl(0, 0%, 98%);
+  border-left: 1px solid hsl(0, 0%, 8%);
+}
+.mobile-menu-box > ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.hero-h1 {
+  color: hsl(0, 0%, 8%);
+  font-size: 5rem;
+  font-weight: 700;
+}
+.hero > p {
+  color: hsl(0, 0%, 41%);
+  line-height: 30px;
+}
+.learn-more {
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: large;
+}
+.learn-more:hover {
+  padding: 14px 24px;
+  border: 1px solid black;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+}
+.img-container > img {
+  width: 15%;
+  padding-left: 30px;
+  object-fit: contain;
+}
+.icon-close {
+  right: 20px;
+  top: 20px;
+  position: absolute;
+}
