@@ -18,6 +18,22 @@ const box2 = document.querySelector(".box2");
 const box3 = document.querySelector(".box3");
 const box4 = document.querySelector(".box4");
 
+/**
+ * adding mobile menu
+ */
+const menu = document.querySelector(".menu");
+const mobileMenuBox = document.querySelector(".mobile-menu-box");
+const iconClose = document.querySelector(".icon-close");
+const overlay = document.querySelector(".overlay");
+
+menu.addEventListener("click", () => {
+  mobileMenuBox.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+});
+iconClose.addEventListener("click", () => {
+  mobileMenuBox.classList.add("hidden");
+  overlay.classList.add("hidden");
+});
 feature.addEventListener("click", () => {
   featureCounter += 1;
   if (featureCounter % 2 == 0) {

@@ -211,6 +211,10 @@ ul {
   .learn-more {
     margin: auto;
   }
+  .img-div > img {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }
 .mobile-menu-box {
   position: absolute;
@@ -222,6 +226,9 @@ ul {
   background-color: hsl(0, 0%, 98%);
   border-left: 1px solid hsl(0, 0%, 8%);
 }
+.icon-close {
+  cursor: pointer;
+}
 .mobile-menu-box > ul {
   display: flex;
   flex-direction: column;
@@ -230,7 +237,7 @@ ul {
 .hero-h1 {
   color: hsl(0, 0%, 8%);
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: 800;
 }
 .hero > p {
   color: hsl(0, 0%, 41%);
@@ -267,4 +274,18 @@ ul {
   right: 20px;
   top: 20px;
   position: absolute;
+}
+/*
+adding the over lay
+*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }
