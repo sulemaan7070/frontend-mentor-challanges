@@ -13,14 +13,49 @@ const companyButtonDown = document.getElementById("companyButtonDown");
 let featureCounter = 1;
 let companyCounter = 1;
 let featureCounterMobile = 1;
+let companyCounterMobile = 1;
 const box1 = document.querySelector(".box1");
 const box2 = document.querySelector(".box2");
 const box3 = document.querySelector(".box3");
 const box4 = document.querySelector(".box4");
-
+const mobileFeature = document.getElementById("mobile-feature");
+const companyFeature = document.getElementById("mobile-company");
+const featureBox = document.querySelector(".mobile-box1");
+const compnayBox = document.querySelector(".mobile-box2");
+const companyButtonDownMobile = document.getElementById(
+  "companyButtonDownMobile"
+);
+const companyButtonUpMobile = document.getElementById("companyButtonUpMobile");
 /**
  * adding mobile menu
  */
+mobileFeature.addEventListener("click", () => {
+  featureCounterMobile += 1;
+  if (featureCounterMobile % 2 == 0) {
+    featureBox.classList.remove("hidden");
+    featureButtonUpMobile.classList.remove("hidden");
+    featureButtonDownMobile.classList.add("hidden");
+  } else {
+    featureBox.classList.add("hidden");
+    featureButtonUpMobile.classList.add("hidden");
+    featureButtonDownMobile.classList.remove("hidden");
+  }
+});
+
+companyFeature.addEventListener("click", () => {
+  console.log("mobile company");
+  companyCounterMobile += 1;
+  if (companyCounterMobile % 2 == 0) {
+    compnayBox.classList.remove("hidden");
+    companyButtonUpMobile.classList.remove("hidden");
+    companyButtonDownMobile.classList.add("hidden");
+  } else {
+    compnayBox.classList.add("hidden");
+    companyButtonUpMobile.classList.add("hidden");
+    companyButtonDownMobile.classList.remove("hidden");
+  }
+});
+
 const menu = document.querySelector(".menu");
 const mobileMenuBox = document.querySelector(".mobile-menu-box");
 const iconClose = document.querySelector(".icon-close");
@@ -60,20 +95,5 @@ company.addEventListener("click", () => {
     companyButtonDown.classList.remove("hidden");
     companyButtonUp.classList.add("hidden");
     box2.classList.add("hidden");
-  }
-});
-
-featureMobile.addEventListener("click", () => {
-  featureCounterMobile += 1;
-  if (featureCounterMobile % 2 == 0) {
-    console.log("mobile feature");
-    featureButtonDownMobile.classList.add("hidden");
-    featureButtonUpMobile.classList.remove("hidden");
-    box3.classList.remove("hidden");
-  } else {
-    console.log("mobile feature else");
-    featureButtonDownMobile.classList.remove("hidden");
-    featureButtonUpMobile.classList.add("hidden");
-    box3.classList.add("hidden");
   }
 });

@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Epilogue", sans-serif;
 }
+#fearure {
+  font-weight: bold;
+}
 header {
   margin: auto;
   margin-top: 20px;
@@ -36,8 +39,8 @@ button {
   background-color: hsl(0, 0%, 98%);
 }
 
-.drop-buttons {
-}
+/* .drop-buttons {
+} */
 .login {
   padding: 10px 20px;
   border: none;
@@ -152,6 +155,7 @@ ul {
   display: flex;
   width: 90%;
   margin: auto;
+  margin-top: 30px;
 }
 
 .img-div > img {
@@ -166,6 +170,7 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  display: none;
 }
 .menu {
   cursor: pointer;
@@ -182,9 +187,9 @@ ul {
   display: none;
   color: hsl(0, 0%, 8%);
   font-size: 2.7rem;
-  font-weight: 700;
+  font-weight: 900;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   header {
     display: none;
   }
@@ -199,6 +204,7 @@ ul {
   }
   .hero-h1 {
     display: none;
+    font-weight: 700;
   }
   .mobile-hero-h1 {
     display: block;
@@ -215,6 +221,9 @@ ul {
     margin-left: 0px;
     margin-top: 30px;
   }
+  .mobile-header {
+    display: flex;
+  }
 }
 .mobile-menu-box {
   position: absolute;
@@ -229,19 +238,16 @@ ul {
 .icon-close {
   cursor: pointer;
 }
-.mobile-menu-box > ul {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-}
+
 .hero-h1 {
   color: hsl(0, 0%, 8%);
   font-size: 5rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 .hero > p {
   color: hsl(0, 0%, 41%);
   line-height: 30px;
+  font-weight: 700;
 }
 .learn-more {
   padding: 15px 25px;
@@ -288,4 +294,73 @@ adding the over lay
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+.mobile-menu-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.login-mobile {
+  padding: 15px 25px;
+  border: none;
+  background-color: hsl(0, 0%, 98%);
+
+  cursor: pointer;
+}
+.register-mobile {
+  padding: 15px 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.register-mobile:hover {
+  padding: 15px 60px;
+  border: 2px solid black;
+}
+.mobile-menu-box > ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+.mobile-menu-box > ul > li {
+  padding: 13px;
+  cursor: pointer;
+}
+
+.mobile-box1 {
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+.mobile-box1 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.mobile-box1 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(0, 0%, 98%);
+  padding: 10px 0px 10px 0px;
+}
+.mobile-box2 {
+  background-color: whitesmoke;
+  margin-top: 10px;
+}
+.mobile-box2 > ul {
+  display: flex;
+  background-color: hsl(0, 0%, 98%);
+  flex-direction: column;
+  border-radius: 10px;
+}
+.mobile-box2 > ul > li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: hsl(0, 0%, 98%);
+  padding: 10px 0px 10px 0px;
 }
