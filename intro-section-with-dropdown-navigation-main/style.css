@@ -224,6 +224,16 @@ ul {
   .mobile-header {
     display: flex;
   }
+  .hero > p {
+    margin: auto;
+  }
+  .img-container {
+    margin-top: 0px;
+  }
+  .learn-more {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
 }
 .mobile-menu-box {
   position: absolute;
@@ -248,6 +258,8 @@ ul {
   color: hsl(0, 0%, 41%);
   line-height: 30px;
   font-weight: 700;
+  width: 90%;
+  margin-top: 30px;
 }
 .learn-more {
   padding: 15px 25px;
@@ -256,7 +268,7 @@ ul {
   color: hsl(0, 0%, 98%);
   border: none;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 70px;
   font-size: large;
 }
 .learn-more:hover {
@@ -269,7 +281,7 @@ ul {
 .img-container {
   width: 100%;
   display: flex;
-  margin-top: 40px;
+  margin-top: 100px;
 }
 .img-container > img {
   width: 15%;
