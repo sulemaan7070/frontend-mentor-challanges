@@ -1,16 +1,25 @@
-# frontend-mentor-challanges
+# Frontend-mentor-challanges
 
-# News Home page
+# 1. News Home page
 
 <a href="https://newshomepage7070.netlify.app/">➡️Visit here⬅️ </a>
 
-# 1.desktop view
+<img src="./completed-imgs/news-web3.0.jpg"  />
 
-<img src="./completed-imgs/Screenshot 2022-11-03 235954.png"  />
+# 2. Loopstudios-VR landingPage
 
-# 2.mobile view
+<a href="https://loopstudios7070.netlify.app/">➡️Visit here⬅️ </a>
 
-<div float="left">
-  <img src="./completed-imgs/FE-C1-mobileView.png" width="70"/>
-<img src="./completed-imgs/PE-C1-mobileMenu.png" width="70"/>
-</div>
+<img src="./completed-imgs/loop-studios.jpg"  />
+
+# 3.Intro section with dropdown navigation
+
+<a href="https://snap-remote7070.netlify.app/">➡️Visit here⬅️ </a>
+
+<img src="./completed-imgs/intro-section-with-drop-down.jpg"  />
+
+# 4.Responsive-product-card
+
+<a href="https://responsive-product-card7070.netlify.app/">➡️Visit here⬅️ </a>
+
+<img src="./completed-imgs/reponsive-image-card.jpg"  />
