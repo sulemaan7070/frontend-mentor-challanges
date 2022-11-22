@@ -17,10 +17,10 @@ body {
   width: 90%;
   margin: auto;
   font-size: 14px;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 65px;
 }
 main {
   display: grid;
@@ -43,6 +43,9 @@ p {
       "three"
       "four"
       "five";
+  }
+  body {
+    margin: 20px;
   }
 }
 .review1 {
