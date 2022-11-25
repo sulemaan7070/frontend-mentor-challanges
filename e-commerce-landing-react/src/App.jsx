@@ -24,7 +24,7 @@ function App() {
   const mainImage = data[value].mainImage;
   return (
     <div className="App">
-      <header className=" shadow-sm flex justify-between  ">
+      <header className="  shadow-sm flex justify-between  ">
         <ul className="flex justify-between">
           <li
             onClick={() => {
