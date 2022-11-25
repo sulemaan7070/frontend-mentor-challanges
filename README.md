@@ -4,7 +4,7 @@
 
 ##### created this app with "React" though this may look like a simple app a lot of things are going inside it like state-management,overlay, carousel etc etc everything built from scrath...
 
-<a href="https://ecommerce-sneakers-home7070.netlify.app/" width="50%">➡️Visit here⬅️ </a>
+<a href="https://ecommerce-sneakers-home7070.netlify.app/" width="40%">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/ecommerce-landing-page.jpg"  />
 
