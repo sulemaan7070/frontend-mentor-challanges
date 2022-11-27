@@ -8,19 +8,24 @@
 
 <img src="./completed-imgs/ecommerce-landing-page.jpg"  />
 
-### 2.News Home page
+### 2. Chat illustration master UI with animation
+
+<a href="https://chat-app-illustration7070.netlify.app/" height="60%" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
+<img src="./completed-imgs/chat-illustration.jpg"  />
+
+### 3.News Home page
 
 <a href="https://newshomepage7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/news-web3.0.jpg"  />
 
-### 3.Loopstudios-VR landingPage
+### 4.Loopstudios-VR landingPage
 
 <a href="https://loopstudios7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/loop-studios.jpg"  />
 
-### 4.Intro section with dropdown navigation
+### 5.Intro section with dropdown navigation
 
 <a href="https://snap-remote7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
@@ -28,13 +33,13 @@
 
 ## Mini components section
 
-### 5.Responsive-product-card
+### 6.Responsive-product-card
 
 <a href="https://responsive-product-card7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/reponsive-image-card.jpg"  />
 
-### 6.testimonials-griddy-review
+### 7.testimonials-griddy-review
 
 <a href="https://griddy-review7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
