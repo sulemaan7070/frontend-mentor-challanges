@@ -57,6 +57,12 @@ button:hover {
   border-radius: 40px;
   color: var(--Bright-orange);
 }
+.first button:hover {
+  background-color: var(--Bright-orange);
+  border: 2px solid white;
+  color: white;
+  padding: 18px 48px;
+}
 .second {
   background-color: var(--Dark-cyan);
   height: 450px;
@@ -73,6 +79,12 @@ button:hover {
   padding: 20px 50px;
   border-radius: 40px;
   color: var(--Dark-cyan);
+}
+.second button:hover {
+  background-color: var(--Dark-cyan);
+  border: 2px solid white;
+  color: white;
+  padding: 18px 48px;
 }
 .third {
   background-color: var(--Very-dark-cyan);
@@ -91,6 +103,12 @@ button:hover {
   padding: 20px 50px;
   border-radius: 40px;
   color: var(--Very-dark-cyan);
+}
+.third button:hover {
+  background-color: var(--Very-dark-cyan);
+  border: 2px solid white;
+  color: white;
+  padding: 18px 48px;
 }
 
 @media (min-width: 948px) {
