@@ -45,3 +45,9 @@
 <a href="https://griddy-review7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/griddy-review.jpg"  />
+
+### 8.three-column preview card
+
+<a href="https://3-column-card7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
+
+<img src="./completed-imgs/cars-display-component.jpg"  />
