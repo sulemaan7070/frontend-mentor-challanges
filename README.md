@@ -51,3 +51,9 @@
 <a href="https://3-column-card7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
 
 <img src="./completed-imgs/cars-display-component.jpg"  />
+
+### 9.order summary component
+
+<a href="https://order-summary-component7070.netlify.app/" target="_blank" rel="noopener noreferrer">➡️Visit here⬅️ </a>
+
+<img src="./completed-imgs/order-summary.jpg"  />
