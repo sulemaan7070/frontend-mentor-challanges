@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Space Grotesk", sans-serif;
+}
+:root {
+  --WhiteIM: hsl(0, 0%, 100%);
+  --LightGrayishViolet: hsl(270, 3%, 87%);
+  --DarkGrayishViolet: hsl(279, 6%, 55%);
+  --VeryDarkViolet: hsl(278, 68%, 11%);
+}
+h3 {
+  color: var(--VeryDarkViolet);
+}
+button {
+  background-color: var(--VeryDarkViolet);
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
+input {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+input:active {
+  border: 1px solid linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+}
+/* * {
+  background: rgb(0 100 0 / 0) !important;
+} */
+.cardBack {
+  background-image: url(./images/bg-card-back.png);
+  background-repeat: no-repeat;
+}
+.boxy {
+  position: absolute;
+  /* position: relative; */
+  z-index: 20;
+}
