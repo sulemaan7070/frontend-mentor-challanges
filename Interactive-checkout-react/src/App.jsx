@@ -122,8 +122,8 @@ function App() {
     console.log(/[A-Za-z]/.test(cvv), "card");
   }
   return (
-    <main className="flex flex-col  lg:flex-row">
-      <div className="container relative lg:w-[600px] ">
+    <main className="flex flex-col  xl:flex-row">
+      <div className="container relative xl:w-[600px] ">
         <picture>
           <source media="(min-width:650px)" srcset={desktopBg} />
           <source
@@ -137,36 +137,36 @@ function App() {
         <img
           src={cardBack}
           alt="cardback"
-          className="absolute top-[24%] right-[8%] w-[60%] lg:w-[auto] lg:top-[49%] lg:left-[37%] "
+          className="absolute top-[24%] right-[8%] w-[60%] xl:w-[auto] xl:top-[49%] xl:left-[37%] "
         />
         <img
           src={cardFront}
           alt="cardfront"
-          className="absolute top-[55%] right-[18%] w-[60%] lg:w-[auto] lg:top-[18.5%] lg:left-[25%]"
+          className="absolute top-[55%] right-[18%] w-[60%] xl:w-[auto] xl:top-[18.5%] xl:left-[25%]"
         />
         <img
           src={cardLogo}
           alt=""
-          className="absolute z-20 top-[63%] left-[25%] w-[10%] lg:top-[22%] lg:left-[28.5%]"
+          className="absolute z-20 top-[63%] left-[25%] w-[10%] xl:top-[22%] xl:left-[28.5%]"
         />
-        <h2 className="absolute z-20 top-[76%] left-[25%] text-white text-l lg:text-3xl lg:top-[29%] lg:left-[31%]">
+        <h2 className="absolute z-20 top-[76%] left-[25%] text-white text-l xl:text-3xl xl:top-[29%] xl:left-[31%]">
           {!cardNumber ? "0000 0000 0000 0000" : cardNumber}
         </h2>
-        <p className="absolute z-20 top-[92%] left-[25%] text-white text-sm lg:text-xl lg:top-[37%] lg:left-[31%]">
+        <p className="absolute z-20 top-[92%] left-[25%] text-white text-sm xl:text-xl xl:top-[37%] xl:left-[31%]">
           {!name ? "Jane Appleseed" : name}
         </p>
-        <span className="absolute z-20 top-[92%] left-[66%] text-white text-sm lg:text-xl lg:top-[37%] lg:left-[78%]">
+        <span className="absolute z-20 top-[92%] left-[66%] text-white text-sm xl:text-xl xl:top-[37%] xl:left-[78%]">
           {!month ? "00" : month}/{!year ? "00" : year}{" "}
         </span>
-        <span className="absolute z-20 top-[45.5%] left-[75%] text-white text-sm lg:top-[61%] lg:left-[88%] lg:text-2xl">
+        <span className="absolute z-20 top-[45.5%] left-[75%] text-white text-sm xl:top-[61%] xl:left-[88%] xl:text-2xl">
           {!cvv ? "0000" : cvv}
         </span>
       </div>
 
       {thank ? (
         <>
-          <div className="h-[350px] mt-[90px] mx-8 lg:mt-[200px] lg:ml-[200px] lg:w-[390px] lg:flex lg:flex-col lg:justify-between">
-            <h3 className="text-sm pb-1 lg:text-xl">Cardholder name</h3>
+          <div className="h-[350px] mt-[90px] mx-8 xl:mt-[200px] xl:ml-[200px] xl:w-[390px] xl:flex xl:flex-col xl:justify-between">
+            <h3 className="text-sm pb-1 xl:text-xl">Cardholder name</h3>
             <input
               type="text"
               name="name"
@@ -175,12 +175,12 @@ function App() {
               placeholder="eg:Jane Appleseeder"
               className={
                 !nameSpan
-                  ? "border border-gray-400 rounded py-2 px-2 pr-7 lg:pr-10 mb-4 lg:w-[100%] "
-                  : "border border-red-500 rounded py-2 px-2 pr-7 lg:pr-10 mb-1 lg:w-[100%]"
+                  ? "border border-gray-400 rounded py-2 px-2 pr-7 xl:pr-10 mb-4 xl:w-[100%] "
+                  : "border border-red-500 rounded py-2 px-2 pr-7 xl:pr-10 mb-1 xl:w-[100%]"
               }
             />
             <span className="text-sm text-red-500">{nameSpan && nameSpan}</span>
-            <h3 className="text-sm pb-1 lg:text-xl">Cardholder Number</h3>
+            <h3 className="text-sm pb-1 xl:text-xl">Cardholder Number</h3>
             <input
               type="text"
               name="number"
@@ -189,8 +189,8 @@ function App() {
               placeholder="eg:1234 5678 1234 5678"
               className={
                 !cardNumberSpan
-                  ? "border border-gray-400 rounded py-2 px-2 pr-7 lg:pr-10 mb-4 lg:w-[100%]"
-                  : "border border-red-500 rounded py-2 px-2 pr-7 lg:pr-10 mb-1 lg:w-[100%]"
+                  ? "border border-gray-400 rounded py-2 px-2 pr-7 xl:pr-10 mb-4 xl:w-[100%]"
+                  : "border border-red-500 rounded py-2 px-2 pr-7 xl:pr-10 mb-1 xl:w-[100%]"
               }
             />
             <span className="text-sm text-red-500">
@@ -198,7 +198,7 @@ function App() {
             </span>
             <div className="flex p-1">
               <div className="">
-                <h3 className="text-sm pb-2 lg:text-xl">Exp date (mm/yy)</h3>
+                <h3 className="text-sm pb-2 xl:text-xl">Exp date (mm/yy)</h3>
                 <input
                   type="text"
                   name="MM"
@@ -206,8 +206,8 @@ function App() {
                   placeholder="MM"
                   className={
                     !monthSpan
-                      ? "border border-gray-400 w-[50px] mr-2 rounded"
-                      : "border border-red-600 w-[50px] mr-2 rounded mb-2"
+                      ? "border border-gray-400 w-[50px] mr-2 rounded py-0.5"
+                      : "border border-red-600 w-[50px] mr-2 rounded mb-2 py-0.5"
                   }
                 />
                 <input
@@ -217,8 +217,8 @@ function App() {
                   placeholder="YY"
                   className={
                     !yearSpan
-                      ? "border border-gray-400 w-[50px] rounded "
-                      : "border border-red-600 w-[50px] rounded mb-2"
+                      ? "border border-gray-400 w-[50px] rounded py-0.5 "
+                      : "border border-red-600 w-[50px] rounded mb-2 py-0.5"
                   }
                 />
                 <span className="text-sm text-red-500 pt-1 block">
@@ -227,16 +227,16 @@ function App() {
               </div>
               {/**MM/YY */}
               <div className="pl-4">
-                <h3 className="text-sm pb-1 lg:text-xl">CVC</h3>
+                <h3 className="text-sm pb-1 xl:text-xl">CVC</h3>
                 <input
                   type="text"
                   name="cvc"
                   onChange={setCard}
-                  placeholder="eg:222"
+                  placeholder="eg:2222"
                   className={
                     !cvvSpan
-                      ? "border border-gray-400 w-[70px]  rounded"
-                      : "border border-red-600 w-[70px]  rounded mb-2"
+                      ? "border border-gray-400 w-[70px]  rounded py-0.5"
+                      : "border border-red-600 w-[70px]  rounded mb-2 py-0.5"
                   }
                 />
                 <span className="text-sm text-red-500  block">
@@ -255,9 +255,9 @@ function App() {
         </>
       ) : (
         <>
-          <div className="flex flex-col justify-around items-center h-[250px] m-[80px] lg:mt-[200px] lg:ml-[200px] lg:w-[390px] lg:flex lg:flex-col lg:justify-around lg:items-center">
-            <img src={completeLogo} className="w-[20%] lg:w-[30%]" alt="" />
-            <h3 className="text-l lg:text-xl ">Thank you</h3>
+          <div className="flex flex-col justify-around items-center h-[250px] m-[80px] xl:mt-[200px] xl:ml-[200px] xl:w-[390px] xl:flex xl:flex-col xl:justify-around xl:items-center">
+            <img src={completeLogo} className="w-[20%] xl:w-[30%]" alt="" />
+            <h3 className="text-l xl:text-xl ">Thank you</h3>
             <p>we have added your details</p>
             <button
               onClick={() => {
